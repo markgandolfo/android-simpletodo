@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<EditText
+	    android:id="@+id/etEditItem"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:ems="10"
+	    android:hint="Item" >
+    </EditText>
+ 
+	
+
+	<Button
+	    android:id="@+id/canbtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/savebtn"
+	    android:layout_alignBottom="@+id/savebtn"
+	    android:layout_alignParentRight="true"
+	    android:paddingLeft="50dp"
+	    android:paddingRight="50dp"	    
+	    android:text="Cancel" />
+
+	<Button
+	    android:id="@+id/savebtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/etEditItem"
+	    android:paddingLeft="50dp"
+	    android:paddingRight="50dp"
+	    android:text="Save" />
+
+</RelativeLayout>
